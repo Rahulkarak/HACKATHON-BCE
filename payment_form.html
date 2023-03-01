@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="shortcut icon" href="pexels-karolina-grabowska-4041242.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="payment.css">
+</head>
+<body background="pic1.jpeg" text="#aa3168">
+    <form action="">
+        <h1>Registration Form</h1>
+        <p>Required fields ar followed by *</p>
+        <h2>Contact Information Of Team Leader</h2>
+        <p>Name: * <input type="text" name="name" placeholder="Enter your Name" required></p>
+        <fieldset>
+            <legend>Gender * </legend>
+            <p>
+                <legend>Gender</legend>
+                male <input type="radio" name="gender" id="male" required>
+                female <input type="radio" name="gender" id="female" required>
+            </p>
+             </fieldset>
+             <p>
+               Registration No.: * <input type="number" name="Registration No." id="pincode" required>
+            </p>
+            <p>
+               Roll No.: * <input type="number" name="pincode" id="Roll No." required>
+            </p>
+            <p>Team Name: * <input type="text" Team name="Team name" placeholder="Enter your Team Name" required></p>
+            
+             <p>
+                Email: * <input type="email" name="email" id="email" required>
+             </p>
+             <p>
+                Pin code: * <input type="number" name="pincode" id="pincode" required>
+             </p>
+            
+             <hr>
+             <hr>
+             <h4>Details Of Member 1</h4>
+             <p>Name: * <input type="text" name="name" placeholder="Enter your Name" required></p>
+             <p>
+               Registration No.: * <input type="number" name="Registration No." id="pincode" required>
+            </p>
+            <p>
+               Roll No.: * <input type="number" name="pincode" id="Roll No." required>
+            </p>
+
+            <h4>Details Of Member 2</h4>
+            <p>Name: * <input type="text" name="name" placeholder="Enter your Name" required></p>
+            <p>
+              Registration No.: * <input type="number" name="Registration No." id="pincode" required>
+           </p>
+           <p>
+              Roll No.: * <input type="number" name="pincode" id="Roll No." required>
+           </p>
+
+           <h4>Details Of Member 3</h4>
+             <p>Name: * <input type="text" name="name" placeholder="Enter your Name" required></p>
+             <p>
+               Registration No.: * <input type="number" name="Registration No." id="pincode" required>
+            </p>
+            <p>
+               Roll No.: * <input type="number" name="pincode" id="Roll No." required>
+            </p>
+
+             <h2>Payment Information</h2>
+             <p>Card Type: *
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+             </p>
+             <p>
+                Card Number: * <input type="number" name="card_number" id="card_number" required>
+             </p>
+             <p>
+                Expiration Date: * <input type="date" name="exp_date" id="exp_date" required>
+             </p>
+             <p>
+                CVV: * <input type="password" name="cvv" id="cvv" required>
+             </p>
+             <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>

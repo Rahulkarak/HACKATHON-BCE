@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.review {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+.review h2 {
+	margin-top: 0;
+}
+
+.review p.reviewer {
+	text-align: right;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
